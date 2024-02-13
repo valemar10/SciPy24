@@ -1,5 +1,5 @@
 # Wildfire Analysis Project
-Repository to present my project's Python code to SciPy 2024
+This repository contains the Python code for a proposal to SciPy's 2024 Conference.
 
 ## Overview
 This repository contains a collection of Jupyter notebooks designed to collect, curate, and augment RGB GeoTIFF Sentinel-2 Satellite Imagery of wildfire-affected areas using Google Earth Engine (GEE) and analyze it using Deep Learning Convolutional Models. The project uses pre-trained VGG16 models adapted for 3-channel RGB GeoTIFF files and multi-channel (6 bands) GeoTIFF files to classify and analyze land areas before and after wildfires. The aim is to provide insights into the impacts of wildfires and identify affected regions accurately to improve the effectiveness of disaster management.
