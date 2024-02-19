@@ -19,21 +19,28 @@ Each notebook in this repository is designed for a specific step in the wildfire
 
 ### Data Preparation and Preprocessing
 wildfiresData.ipynb & wildfiresDataAfter.ipynb: Download Sentinel-2 satellite images of Forested Areas in California before and after wildfires.
-CoordinateVerification.ipynb: Plot fire coordinates to verify the accuracy of the dataset.
-MaskingTests.ipynb & Masks.ipynb: Create two-dimensional labels using curated polygon data of historic wildfires to overlay on satellite images. These labels are for training Fully Convolutional Models.
+
+CoordinateVerification.ipynb: Plot fire coordinates to verify the accuracy of the dataset.  
+
+MaskingTests.ipynb & Masks.ipynb: Create two-dimensional labels using curated polygon data of historic wildfires to overlay on satellite images. These labels are for training Fully Convolutional Models.  
+
 FilesBinary.ipynb: Organize and label the satellite image data for binary Convolutional Neural Network (CNN) models that only use 3-Channel RGB GeoTIFF input. 
+
 6ChannelDataCreation.ipynb: Organize, pair and combine the before and after data under one 6-Channel input for CNN models that use 6-Channel RGB GeoTIFF.
 
 ### Data Augmentation and Segmentation
-imageMaskPairingSegmenting.ipynb: Segment GeoTIFF images and their two-dimensional labels into smaller chunks (256*256 px) for analysis and model input.
-DamageTilesAugmentation.ipynb: Augment satellite images of fire-damaged areas to enhance the dataset and address class imbalance.
+imageMaskPairingSegmenting.ipynb: Segment GeoTIFF images and their two-dimensional labels into smaller chunks (256*256 px) for analysis and model input.  
+
+DamageTilesAugmentation.ipynb: Augment satellite images of fire-damaged areas to enhance the dataset and address the class imbalance.
 
 ### Data examples and visualization
 DatasetExamples.ipynb: Visualize the dataset and its two-dimensional labels for demonstration purposes.
 
 ### Model Training and Evaluation
 VGG16.ipynb: Run a simple VGG16 model on labeled post-wildfire GeoTIFF images.
-ImprovedVGG16.ipynb: Enhancements to the VGG16 model, including addressing class imbalance, implementing regularization, and adding Early Stopping.
+
+ImprovedVGG16.ipynb: Enhancements to the VGG16 model, including addressing the class imbalance, implementing regularization, and adding Early Stopping.
+
 EfficientNet.ipynb: Run an EfficientNet model for 6-channel satellite images to incorporate the Before RGB GeoTIFF Wildfire Images with the After RGB GeoTIFF Wildfire Images under one input.
 
 ### Contact Information
