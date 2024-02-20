@@ -55,7 +55,7 @@ The VGG16 and EfficientNet model developers for their robust frameworks in image
 TensorFlow and Keras libraries for providing the essential tools to develop and train my AI models.
 Jupyter Notebooks for offering a powerful and accessible platform for our data science experiments.
 
-Additionally, I would like to acknowledge the assistance provided by OpenAI's ChatGPT, which offered valuable guidance through code snippets, and documentation drafting. 
+Additionally, I would like to acknowledge the assistance provided by OpenAI's ChatGPT, which offered valuable guidance through documentation drafting. 
 
 ### License
 This project is licensed - see the LICENSE file for details.
