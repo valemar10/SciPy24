@@ -41,7 +41,7 @@ VGG16.ipynb: Run a simple VGG16 model on labeled post-wildfire GeoTIFF images.
 
 ImprovedVGG16.ipynb: Enhancements to the VGG16 model, including addressing the class imbalance, implementing regularization, and adding Early Stopping.
 
-EfficientNet.ipynb: Run an EfficientNet model for 6-channel satellite images to incorporate the Before RGB GeoTIFF Wildfire Images with the After RGB GeoTIFF Wildfire Images under one input.
+EfficientNet6Channel.ipynb: Run an EfficientNet model for 6-channel satellite images to incorporate the Before RGB GeoTIFF Wildfire Images with the After RGB GeoTIFF Wildfire Images under one input.
 
 ### Contact Information
 
